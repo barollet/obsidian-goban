@@ -26,3 +26,4 @@ Result :
 - read from a file
 - multiple variations
 - automatic zooming
+- interractive board
