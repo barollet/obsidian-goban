@@ -1,11 +1,10 @@
 {
-	"id": "obsidian-goban",
-	"name": "Obsidian Goban",
+	"id": "display-goban",
+	"name": "Display Goban",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
 	"description": "This is a plugin to display a goban inside small views",
 	"author": "Theo Barollet",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"authorUrl": "https://github.com/barollet",
 	"isDesktopOnly": false
 }
