@@ -1,7 +1,7 @@
 {
-	"name": "obsidian-sample-plugin",
+	"name": "obsidian-goban",
 	"version": "1.0.0",
-	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+	"description": "This is a plugin to display a goban inside small views",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
@@ -20,5 +20,12 @@
 		"obsidian": "latest",
 		"tslib": "2.4.0",
 		"typescript": "4.7.4"
+	},
+	"dependencies": {
+		"@sabaki/sgf": "^3.4.7",
+		"@types/dompurify": "^3.0.2",
+		"@types/react-dom": "^18.2.6",
+		"dompurify": "^3.0.4",
+		"svgoban": "^1.0.0"
 	}
 }
